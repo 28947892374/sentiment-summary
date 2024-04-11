@@ -19,8 +19,6 @@ This toolkit provides a set of Python scripts for analyzing text documents. It o
 
 ## Installation
 
-## Installation
-
 Before running the scripts, ensure you have Python 3.8 or newer installed. Then, install the required packages using the following pip command:
 
 ```bash
