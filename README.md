@@ -11,6 +11,7 @@ This toolkit provides a set of Python scripts for analyzing text documents. It o
 ## Requirements
 
 - Python 3.8+
+- PyTorch
 - spaCy
 - openai
 - transformers
@@ -21,4 +22,4 @@ This toolkit provides a set of Python scripts for analyzing text documents. It o
 Before running the scripts, ensure you have the required packages installed:
 
 ```bash
-pip install spacy openai transformers ipython
+pip install pytorch spacy openai transformers ipython
