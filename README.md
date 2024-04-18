@@ -1,12 +1,12 @@
-# Project 2025 Analysis Toolkit
-## Combatting Bigotry with Text Analysis
+# Project 2025 Text Analysis Toolkit
 
-This toolkit is designed to analyze and counteract bigoted stances in the "Project 2025" document. It utilizes Python scripts equipped with advanced NLP technologies from `spaCy`, Hugging Face's `transformers`, and OpenAI's GPT-4. These tools are specifically tailored to detect and analyze biased or discriminatory language and sentiments.
+This toolkit provides a set of Python scripts designed for analyzing the "Project 2025" document, focusing on extracting and summarizing content related to specific keywords. It utilizes advanced NLP technologies from `spaCy`, Hugging Face's `transformers`, and OpenAI's GPT-4, which help in extracting pertinent information from large text documents. I wanted to provide a tool that highlighted anti-LGBTQ sentiments that occurred in this document as well as highlight certain portions of the document to combat misinformation.
 
 ## Features
 
-- **Keyword-Based Text Summarization**: Identify and extract key sentences related to specific bigoted or discriminatory themes from the "Project 2025" document, summarizing the context using GPT-4.
-- **Sentiment Analysis**: Assess the sentiment of extracted sentences to determine negative, neutral, or positive tones, using a fine-tuned DistilBERT model, with a focus on detecting harmful biases.
+- **Keyword-Based Text Summarization**: Extract sentences containing a specified keyword from the "Project 2025" document and summarize the context using GPT-4. This feature is particularly useful for highlighting references that could be analyzed further for biases.
+
+- **Sentiment Analysis**: Perform sentiment analysis on sentences containing a specified keyword. This analysis helps identify the tone of the discussions related to the keywords, using a fine-tuned DistilBERT model.
 
 ## Requirements
 
@@ -16,3 +16,10 @@ This toolkit is designed to analyze and counteract bigoted stances in the "Proje
 - openai
 - transformers
 - IPython
+
+## Installation
+
+Ensure you have Python 3.8 or newer installed. Then, install the required packages using the following pip command:
+
+```bash
+pip install torch spacy openai transformers ipython
