@@ -1,6 +1,6 @@
 # Project 2025 Text Analysis Toolkit
 
-This toolkit provides a set of Python scripts designed for analyzing the "Project 2025" document, focusing on extracting and summarizing content related to specific keywords. It utilizes advanced NLP technologies from `spaCy`, Hugging Face's `transformers`, and OpenAI's GPT-4, which help in extracting pertinent information from large text documents. I wanted to provide a tool that highlighted anti-LGBTQ sentiments that occurred in this document as well as highlight certain portions of the document to combat misinformation.
+This toolkit provides a set of Python scripts designed for analyzing the "Project 2025 Mandate for Leadership" document, focusing on extracting and summarizing content related to specific keywords. It utilizes advanced NLP technologies from `spaCy`, Hugging Face's `transformers`, and OpenAI's GPT-4, which help in extracting pertinent information from large text documents. I wanted to provide a tool that highlighted anti-LGBTQ sentiments that occurred in this document as well as highlight certain portions of the document to combat misinformation.
 
 ## Features
 
