@@ -11,15 +11,8 @@ This toolkit provides a set of Python scripts designed for analyzing the "Projec
 ## Requirements
 
 - Python 3.8+
-- PyTorch
+- PyTorch (with CUDA optimization)
 - spaCy
 - openai
 - transformers
 - IPython
-
-## Installation
-
-Ensure you have Python 3.8 or newer installed. Then, install the required packages using the following pip command:
-
-```bash
-pip install torch spacy openai transformers ipython
