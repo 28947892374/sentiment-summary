@@ -1,12 +1,12 @@
-# sentiment-summary
-# Text Analysis Toolkit
+# Project 2025 Analysis Toolkit
+## Combatting Bigotry with Text Analysis
 
-This toolkit provides a set of Python scripts for analyzing text documents. It offers functionalities such as keyword-based text summarization and sentiment analysis. It utilizes NLP models from `spaCy` and Hugging Face's `transformers` library, and leverages OpenAI's GPT-4 for generating summaries.
+This toolkit is designed to analyze and counteract bigoted stances in the "Project 2025" document. It utilizes Python scripts equipped with advanced NLP technologies from `spaCy`, Hugging Face's `transformers`, and OpenAI's GPT-4. These tools are specifically tailored to detect and analyze biased or discriminatory language and sentiments.
 
 ## Features
 
-- **Keyword-Based Text Summarization**: Extract sentences containing a specified keyword from a text document and summarize the context using GPT-4.
-- **Sentiment Analysis**: Perform sentiment analysis on sentences containing a specified keyword using a fine-tuned DistilBERT model.
+- **Keyword-Based Text Summarization**: Identify and extract key sentences related to specific bigoted or discriminatory themes from the "Project 2025" document, summarizing the context using GPT-4.
+- **Sentiment Analysis**: Assess the sentiment of extracted sentences to determine negative, neutral, or positive tones, using a fine-tuned DistilBERT model, with a focus on detecting harmful biases.
 
 ## Requirements
 
@@ -16,10 +16,3 @@ This toolkit provides a set of Python scripts for analyzing text documents. It o
 - openai
 - transformers
 - IPython
-
-## Installation
-
-Before running the scripts, ensure you have Python 3.8 or newer installed. Then, install the required packages using the following pip command:
-
-```bash
-pip install torch spacy openai transformers ipython
